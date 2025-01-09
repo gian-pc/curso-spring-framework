@@ -6,11 +6,10 @@ public class UsoEmpleados {
 		// TODO Auto-generated method stub
 		
 		// Creación de objetos de tipo Empleado
-		JefeEmpleado Empleado1 = new JefeEmpleado();
+		Empleados Empleado1 = new DirectorEmpleado();
 		
 		// Uso de los objetos creados
 		System.out.println(Empleado1.getTareas());
 
 	}
-
 }
